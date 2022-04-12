@@ -68,3 +68,107 @@ export const LINE_2_POINTS = [
   { name: '南大仙林校区', x: 589, y: -323 },
   { name: '经天路', x: 616, y: -350, type: POINT_TYPES.END },
 ]
+
+export const LINE_3_POINTS = [
+  { name: '林场', x: -335, y: -536, type: POINT_TYPES.END },
+  { name: '星火路', x: -280, y: -506 },
+  { name: '东大成贤学院', x: -251, y: -478 },
+  { name: '泰冯路', x: -198, y: -427, type: POINT_TYPES.TRANSFER, angle: 45 },
+  { name: '天润城', x: -175, y: -405 },
+  { name: '柳洲东路', x: -144, y: -375, },
+  { name: '上元门', x: -75, y: -308 },
+  { name: '五塘广场', x: -36, y: -270, },
+  { name: '小市', x: -7, y: -243 },
+  { name: '南京站', x: 34, y: -202, type: POINT_TYPES.HUGE },
+  { name: '南京林业大学·新庄', x: 64, y: -173 },
+  { name: '鸡鸣寺', x: 71, y: -140, type: POINT_TYPES.TRANSFER, angle: 90 },
+  { name: '浮桥', x: 71, y: -58 },
+  { name: '大行宫', x: 71, y: 0, type: POINT_TYPES.TRANSFER, angle: 90 },
+  { name: '常府街', x: 71, y: 39, },
+  { name: '夫子庙', x: 71, y: 75, },
+  { name: '武定门', x: 71, y: 106 },
+  { name: '雨花门', x: 71, y: 134 },
+  { name: '卡子门', x: 71, y: 165 },
+  { name: '大明路', x: 71, y: 200 },
+  { name: '明发广场', x: 71, y: 237 },
+  { name: '南京南站', x: 70, y: 282, type: POINT_TYPES.HUGE },
+  { name: '宏运大道', x: 71, y: 334 },
+  { name: '胜太西路', x: 71, y: 366 },
+  { name: '天元西路', x: 71, y: 397 },
+  { name: '九龙湖', x: 71, y: 441 },
+  { name: '诚信大道', x: 71, y: 489 },
+  { name: '东大九龙湖校区', x: 71, y: 542 },
+  { name: '秣周东路', x: 71, y: 587, type: POINT_TYPES.END },
+]
+
+export const LINE_4_POINTS = [
+  { name: '龙江', x: -198, y: -157, type: POINT_TYPES.END },
+  { name: '草场门·南艺·二师', x: -124, y: -140 },
+  { name: '云南路', x: -53, y: -140 },
+  { name: '鼓楼', x: 0, y: -140, type: POINT_TYPES.TRANSFER, angle: 90 },
+  { name: '鸡鸣寺', x: 71, y: -140, type: POINT_TYPES.TRANSFER, angle: 90 },
+  { name: '九华山', x: 126, y: -140, },
+  { name: '岗子村', x: 173, y: -140 },
+  { name: '蒋王庙', x: 234, y: -157, },
+  { name: '王家湾', x: 272, y: -194 },
+  { name: '聚宝山', x: 317, y: -210 },
+  { name: '徐庄·苏宁总部', x: 388, y: -210 },
+  { name: '金马路', x: 473, y: -210, type: POINT_TYPES.TRANSFER, angle: -45 },
+  { name: '汇通路', x: 530, y: -210 },
+  { name: '灵山', x: 589, y: -216 },
+  { name: '东流', x: 630, y: -254, },
+  { name: '孟北', x: 659, y: -282, },
+  { name: '西岗桦墅', x: 693, y: -314 },
+  { name: '仙林湖', x: 729, y: -350, type: POINT_TYPES.END },
+]
+
+export const LINE_10_POINTS = [
+  { name: '雨山路', x: -576, y: 171, type: POINT_TYPES.END },
+  { name: '文德路', x: -576, y: 110 },
+  { name: '龙华路', x: -576, y: 39 },
+  { name: '南京工业大学', x: -548, y: 0 },
+  { name: '浦口万汇城', x: -478, y: 0 },
+  { name: '临江·青奥体育公园', x: -401, y: 0 },
+  { name: '江心洲', x: -337, y: 0 },
+  { name: '绿博园', x: -279, y: 0 },
+  { name: '梦都大街', x: -253, y: 95 },
+  { name: '奥体中心', x: -253, y: 196 },
+  { name: '元通', x: -210, y: 211, type: POINT_TYPES.TRANSFER, angle: 90 },
+  { name: '中胜', x: -124, y: 211, },
+  { name: '小行', x: -54, y: 211 },
+  { name: '安德门', x: 0, y: 211, type: POINT_TYPES.TRANSFER, angle: 90 },
+]
+
+export const LINE_S1_POINTS = [
+  { name: '南京南站', x: 70, y: 282, type: POINT_TYPES.HUGE },
+  { name: '翠屏山', x: 2, y: 358 },
+  { name: '河海大学·佛城西路', x: 2, y: 430 },
+  { name: '吉印大道', x: 2, y: 490 },
+  { name: '正方中路', x: 2, y: 555 },
+  { name: '翔宇路北', x: 2, y: 615 },
+  { name: '翔宇路南', x: 2, y: 677, type: POINT_TYPES.TRANSFER, angle: 90 },
+  { name: '禄口机场', x: 71, y: 689 },
+  { name: '空港新城江宁', x: 126, y: 689, type: POINT_TYPES.TRANSFER, angle: 0 },
+]
+
+export const LINE_S7_POINTS = [
+  { name: '空港新城江宁', x: 126, y: 689, type: POINT_TYPES.TRANSFER, angle: 0 },
+  { name: '柘塘', x: 178, y: 689 },
+  { name: '空港新城溧水', x: 178, y: 689 },
+  { name: '群力', x: 284, y: 689 },
+  { name: '卧龙湖', x: 332, y: 700 },
+  { name: '溧水', x: 358, y: 734 },
+  { name: '中山湖', x: 381, y: 763 },
+  { name: '幸庄', x: 403, y: 790 },
+  { name: '无想山', x: 427, y: 820, type: POINT_TYPES.END },
+
+]
+
+export const LINE_S9_POINTS = [
+  { name: '翔宇路南', x: 2, y: 677, type: POINT_TYPES.TRANSFER, angle: 90 },
+  { name: '铜山', x: 2, y: 717 },
+  { name: '石湫', x: 2, y: 749 },
+  { name: '明觉', x: 2, y: 783 },
+  { name: '团结圩', x: 2, y: 815 },
+  { name: '高淳', x: 2, y: 857, type: POINT_TYPES.END },
+]

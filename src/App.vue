@@ -14,7 +14,10 @@ Zfont.init(Zdog);
 
 import MSYH from '../assets/fonts/微软雅黑.ttf'
 
-import { POINT_TYPES, LINE_1_POINTS, LINE_2_POINTS } from './const'
+import {
+  POINT_TYPES, LINE_1_POINTS, LINE_2_POINTS, LINE_3_POINTS, LINE_4_POINTS,
+  LINE_10_POINTS, LINE_S1_POINTS, LINE_S7_POINTS, LINE_S9_POINTS
+} from './const'
 
 const font = new Zdog.Font({
   src: MSYH
@@ -150,6 +153,13 @@ onMounted(() => {
 
   drawPathAndPoints(canvas, LINE_1_POINTS, LINE_1_COLOR)
   drawPathAndPoints(canvas, LINE_2_POINTS, LINE_2_COLOR)
+  drawPathAndPoints(canvas, LINE_3_POINTS, LINE_3_COLOR)
+  drawPathAndPoints(canvas, LINE_4_POINTS, LINE_4_COLOR)
+  drawPathAndPoints(canvas, LINE_10_POINTS, LINE_10_COLOR)
+  drawPathAndPoints(canvas, LINE_S1_POINTS, LINE_S1_COLOR)
+  drawPathAndPoints(canvas, LINE_S7_POINTS, LINE_S7_COLOR)
+  drawPathAndPoints(canvas, LINE_S9_POINTS, LINE_S9_COLOR)
+
 
   // update & render
   canvas.updateRenderGraph();
